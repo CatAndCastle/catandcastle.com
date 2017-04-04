@@ -1,0 +1,78 @@
+body, html{
+	width:100%;
+	height:100%;
+	position:relative;
+	margin:0px;
+	padding:0px;
+
+	font-family: 'AvenirNext';
+	color:#394951;
+}
+a{
+	cursor:pointer;
+	text-decoration:none;
+}
+catandcastle{
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+	padding:2em;
+	box-sizing:border-box;
+	text-align:center;
+	background-color: #fff3e1;
+}
+.header{
+	position:relative;
+}
+.header img{
+	width:90%;
+	max-width:400px;
+	height:auto;
+	display:block;
+	margin:auto;
+}
+.header p{
+	font-size:1em;
+	margin:1em auto;
+	padding:0px;
+}
+img.logo{
+	position: absolute;
+	top:0px; bottom:0px;
+	left:0px; right:0px;
+	margin:auto;
+	width:60%;
+	max-width:300px;
+	height:auto;
+}
+.contact{
+	position:absolute;
+	bottom: 2em;
+	left:0px; right:0px;
+	margin:auto;
+
+	font-size:1em;
+	padding:1em 2em;
+	border: 1px solid black;
+	border-radius: 0.5em;
+
+	width:100px;
+	color:inherit;
+	font-weight:100;
+
+}
+
+@media screen and (max-device-height: 700px) and (orientation:landscape){
+	img.logo{
+		height:30%;
+		width:auto;
+	}
+}
+
+@media screen and (orientation:landscape){
+	img.logo{
+		height:30%;
+		width:auto;
+	}
+}

@@ -1,6 +1,7 @@
 .DS_Store
 aws/
 design/
+VideoDashboard/
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
